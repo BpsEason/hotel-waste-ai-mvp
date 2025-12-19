@@ -29,12 +29,22 @@
 git clone https://github.com/yourname/hotel-waste-ai-mvp.git
 cd hotel-waste-ai-mvp
 
-# 2. 建置並啟動所有服務
+# 2. 安裝 Laravel 依賴套件
+cd api
+composer install
+cd ..
+
+# 3. 安裝前端依賴套件
+cd frontend
+npm install
+cd ..
+
+# 4. 建置並啟動所有服務
 docker compose up -d --build
 
-# 3. 等待服務啟動（約 2-3 分鐘）
+# 5. 等待服務啟動（約 2-3 分鐘）
 
-# 4. 開啟瀏覽器訪問
+# 6. 開啟瀏覽器訪問
 http://localhost
 ```
 
@@ -106,16 +116,6 @@ MariaDB (儲存廚餘紀錄與圖片路徑)
 
 ---
 
-## 🤝 貢獻與聯絡
-
-歡迎提交 Issue 或 Pull Request！  
-有任何問題或合作需求，請聯絡：your.email@example.com  
-
----
-
-**讓數據說話，用 AI 減少浪費，從今天開始優化你的廚房！**
 
 ⭐ 如果覺得這個專案有幫助，請給個 Star 支持一下！
 ```
-
-這樣排版後，README 在 GitHub 上會更清晰、專業，適合展示給老闆或投資人。你要不要我再幫你加上 **技術徽章（Badges）**，例如 Docker、Vue、Laravel、FastAPI、MariaDB，讓專案首頁更吸睛？
