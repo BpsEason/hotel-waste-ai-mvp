@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Vite build output
+frontend/dist/
+dist/
+
+# Laravel
+api/.env
+api/vendor/
+api/storage/logs/*.log
+api/bootstrap/cache/*.php
+
+# Docker
+.docker/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
